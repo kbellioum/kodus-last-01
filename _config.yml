@@ -1,0 +1,23 @@
+name: Espacio
+email: kbellioum@itknowledgema.com
+description: > #KODUS Conseil en menuiserie aluminium
+baseurl: ""
+url: ""
+#https://www.itknowledge.ma/koduslast
+# Cloudinary assets
+logo: https://res.cloudinary.com/kbellioum/image/upload/v1496072295/kodus_w4mh2k.png
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: assets/styles
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+exclude: ['Rakefile', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'bin']
+
+port:    4001
