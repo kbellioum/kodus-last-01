@@ -307,6 +307,7 @@
 }
 @media (max-width:768px){
     .home-slider {margin: 87px 0 0;}
+
 }
 @media (max-width:767px){
     #nav {
@@ -405,6 +406,7 @@
     .gn-scroller {height: 100%;}
 }
 @media (max-width:700px){
+    .col-info{ display: none;}
     .col-info p{
         font-size:11px;
         line-height:14px;
