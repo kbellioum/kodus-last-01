@@ -335,8 +335,8 @@ address { font-style: italic; }
 	display:table-cell;
 	vertical-align:middle;
 }
-.tg-member-hover,
-.tg-post-hover,
+.tg-member-hover,  /*
+.tg-post-hover, */
 .tg-img-hover{
 	left:0;
 	top:70%;
