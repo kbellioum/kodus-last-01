@@ -1,27 +1,3 @@
-<!-- <section class="tg-main-section tg-haslayout bg-white" id="references">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="tg-theme-heading">
-          <span>NOS</span>
-          <h2>REALISATIONS</h2>
-        </div>
-        <div class="tg-brands tg-haslayout">
-          <div class="owl-carousel owl-theme">
-              <div class="item"> <p>un</p> </div>
-              <div class="item"> <p>deux</p> </div>
-              <div class="item"> <p>trois</p> </div>
-              <div class="item"> <p>quatre</p> </div>
-              <div class="item"> <p>cinq</p> </div>
-              <div class="item"> <p>six</p> </div>
-              <div class="item"> <p>sept</p> </div>
-          </div>
-				</div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 <section class="tg-main-section tg-haslayout bg-white" id="realisations">
   <div class="container">
     <div class="row">
@@ -32,12 +8,16 @@
         </div>
       </div>
       <div id="tg-posts-slider" class="tg-posts">
+
+<!-- Start contents -->
+
+{% for post in site.posts %}
         <div class="item">
           <div class="tg-post">
             <div class="tg-post-img">
               <figure>
                 <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/Ecole_Riyadh_Al_Andalousse/imghead.jpg" alt="image description">
+                  <img src="{{ post.image }}" alt="image description">
                 </a>
               </figure>
               <!-- <div class="tg-post-hover">
@@ -48,7 +28,7 @@
               </div> -->
             </div>
             <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Ecole Riyadh Al Andalousse</a></h3>
+              <h3><a href="#">{{ post.title }}</a></h3>
               <div class="tg-post-meta">
                 <span><a href="#"></a></span>
                 <span><a href="#"></a></span>
@@ -59,141 +39,11 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="tg-post">
-            <div class="tg-post-img">
-              <figure>
-                <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/Projet_Villa_T/imghead.jpg" alt="image description">
-                </a>
-              </figure>
-              <!-- <div class="tg-post-hover">
-                <ul class="tg-post-hover-icons">
-                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                  <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-                </ul>
-              </div> -->
-            </div>
-            <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Villa T</a></h3>
-              <div class="tg-post-meta">
-                <span><a href="#"></a></span>
-                <span><a href="#"></a></span>
-              </div>
-              <div class="tg-description">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="tg-post">
-            <div class="tg-post-img">
-              <figure>
-                <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/Projet_Villa_H/imghead.jpg" alt="image description">
-                </a>
-              </figure>
-              <!-- <div class="tg-post-hover">
-                <ul class="tg-post-hover-icons">
-                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                  <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-                </ul>
-              </div> -->
-            </div>
-            <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Ville H</a></h3>
-              <div class="tg-post-meta">
-                <span><a href="#"></a></span>
-                <span><a href="#"></a></span>
-              </div>
-              <div class="tg-description">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="tg-post">
-            <div class="tg-post-img">
-              <figure>
-                <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/cheikh_khalifa/imghead.jpg" alt="image description">
-                </a>
-              </figure>
-              <!-- <div class="tg-post-hover">
-                <ul class="tg-post-hover-icons">
-                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                  <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-                </ul>
-              </div> -->
-            </div>
-            <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Cheikh Khalifa</a></h3>
-              <div class="tg-post-meta">
-                <span><a href="#"></a></span>
-                <span><a href="#"></a></span>
-              </div>
-              <div class="tg-description">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="tg-post">
-            <div class="tg-post-img">
-              <figure>
-                <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/Passage_Fitness/imghead.jpg" alt="image description">
-                </a>
-              </figure>
-              <!-- <div class="tg-post-hover">
-                <ul class="tg-post-hover-icons">
-                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                  <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-                </ul>
-              </div> -->
-            </div>
-            <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Passage Fitness</a></h3>
-              <div class="tg-post-meta">
-                <span><a href="#"></a></span>
-                <span><a href="#"></a></span>
-              </div>
-              <div class="tg-description">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="tg-post">
-            <div class="tg-post-img">
-              <figure>
-                <a href="#">
-                  <img src="{{ site.baseurl }}/assets/images/projets/Pharma5/imghead.jpg" alt="image description">
-                </a>
-              </figure>
-              <!-- <div class="tg-post-hover">
-                <ul class="tg-post-hover-icons">
-                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                  <li><a href="#"><i class="fa fa-share-alt"></i></a></li>
-                </ul>
-              </div> -->
-            </div>
-            <div class="tg-post-content tg-border-topleft">
-              <h3><a href="#">Pharma 5</a></h3>
-              <div class="tg-post-meta">
-                <span><a href="#"></a></span>
-                <span><a href="#"></a></span>
-              </div>
-              <div class="tg-description">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </div>
+{% endfor %}
+
+<!-- End contents -->
+
+
       </div>
     </div>
   </div>
