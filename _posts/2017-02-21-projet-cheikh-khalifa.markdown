@@ -6,17 +6,17 @@ categories: projet
 image: /assets/images/projets/cheikh_khalifa/imghead.jpg
 
 imgtab:
-    - src: /assets/images/projets/cheikh_khalifa/img1.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-1.jpg
       active: true
-    - src: /assets/images/projets/cheikh_khalifa/img2.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-2.jpg
       active: false
-    - src: /assets/images/projets/cheikh_khalifa/img3.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-3.jpg
       active: false
-    - src: /assets/images/projets/cheikh_khalifa/img4.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-4.jpg
       active: false
-    - src: /assets/images/projets/cheikh_khalifa/img5.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-5.jpg
       active: false
-    - src: /assets/images/projets/cheikh_khalifa/img6.jpg
+    - src: /assets/images/projets/cheikh_khalifa/img-6.jpg
       active: false
 text: "La fondation CHEIKH KHALIFA a fait appel à la société KODUS afin d'installer des pergolas bioclimatiques, une solution qui a permis aux étudiants de profiter des espaces extérieurs en journée comme en soirée grâce a la mise en place des spots orientables, ces espaces ont connus un fort succès de la part des étudiants et des professeurs."
 ---

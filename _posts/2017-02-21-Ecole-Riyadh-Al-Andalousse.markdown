@@ -5,11 +5,11 @@ date:   2017-02-21 18:17:29 +0100
 categories: projet
 image: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/imghead.jpg
 imgtab:
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img1.jpg
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-1.jpg
       active: true
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img2.jpg
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-2.jpg
       active: false
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img3.jpg
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-3.jpg
       active: false
 
 ---
