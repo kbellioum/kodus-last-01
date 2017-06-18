@@ -655,7 +655,7 @@ body.home #nav ul{ padding: 5px 0 0;}
 	top:100%;
 	left:0;
 	width:0;
-	height:3px;
+	height:1px;
 }
 #nav ul li.current-menu-item a:after,
 #nav ul li a:hover:after{ width:100%;}
@@ -735,10 +735,10 @@ body.home #nav ul{ padding: 5px 0 0;}
 .home-slider .item .tg-banner-content{
 	width: 370px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 70%;
+	left: 38%;
 	z-index: 2;
-	margin: -185px 0 0 0;
+	margin: auto;
 }
 .tg-banner-content h1{
 	font-size: 64px;
@@ -1492,7 +1492,8 @@ form .form-group .forgetpassword i,
 	height:auto;
 }
 .tg-aboutus .tg-description{ padding:0;}
-.tg-aboutus .tg-description p{ margin:0 0 20px;}
+/*.tg-aboutus .tg-description p{ margin:0 0 20px;}*/
+.tg-aboutus .tg-description p{ margin:0 0 240px;}
 .tg-skillreview-bg{ background:#f7f7f7;}
 .skill-group{
 	float:left;

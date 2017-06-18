@@ -176,7 +176,7 @@ $(document).ready(function (e) {
     //     draggable: false
     // });
     // gmap version 7
-    var center = [33.595292 ,-7.646922];
+    var center = [33.597654, -7.648870];  // 33.595292 ,-7.646922
     $("#tg-map").gmap3({
         center: center,
         zoom: 16,
@@ -190,7 +190,8 @@ $(document).ready(function (e) {
         streetViewControl: false
       })
     .marker({
-        address: "8, Avenue Mohamed Sijilmassi, Casablanca, Maroc",
+        position:[33.597654, -7.648870],
+        // address: "8, Avenue Mohamed Sijilmassi, Casablanca, Maroc",
         icon: 'http://maps.google.com/mapfiles/marker_green.png'
         });
     /* ---------------------------------------

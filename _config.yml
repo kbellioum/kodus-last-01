@@ -5,7 +5,9 @@ baseurl: ""
 url: ""
 #https://www.itknowledge.ma/koduslast
 # Cloudinary assets
-logo: https://res.cloudinary.com/kbellioum/image/upload/v1496072295/kodus_w4mh2k.png
+logo: https://res.cloudinary.com/kbellioum/image/upload/v1497787353/kodus_xbdlh7.png
+
+#https://res.cloudinary.com/kbellioum/image/upload/v1496072295/kodus_w4mh2k.png
 
 # Build settings
 markdown: kramdown
