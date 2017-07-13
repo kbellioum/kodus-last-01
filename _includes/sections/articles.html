@@ -1,0 +1,35 @@
+<section class="tg-main-section tg-haslayout bg-white" id="realisations">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="tg-theme-heading">
+          <span>NOS</span>
+          <h2>REALISATIONS</h2>
+        </div>
+      </div>
+      <div id="tg-posts-slider" class="tg-posts">
+
+<!-- Start contents -->
+
+{% for article in site.blogs %}
+        <div class="item">
+          <div class="tg-post">
+            <div class="tg-post-img">
+              <figure>
+                <a href="{{ article.url | prepend: site.baseurl }}">
+                  <!-- <img src="{{ article.image }}" alt="image description"> -->
+                </a>
+              </figure>
+            </div>
+          </div>
+          <h2><strong><a href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></strong></h2>
+        </div>
+{% endfor %}
+
+<!-- End contents -->
+
+
+      </div>
+    </div>
+  </div>
+</section>

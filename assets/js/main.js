@@ -15,7 +15,7 @@
     e.src = '//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e, r)
 }(window, document, 'script', 'ga'));
-ga('create', 'UA-XXXXX-X', 'auto');
+ga('create', 'UA-101009114-1', 'auto');
 ga('send', 'pageview');
 /* -------------------------------------
  CUSTOM FUNCTION WRITE HERE
@@ -31,6 +31,7 @@ $(document).ready(function (e) {
         paginationSpeed: 400,
         singleItem: true,
         navigation: true,
+        // pagination: false,
         navigationText: [
             "<i class='fa fa-angle-left'></i>",
             "<i class='fa fa-angle-right'></i>"
@@ -376,6 +377,7 @@ $(document).ready(function (e) {
      }
    });
 
+// follow the anchors Main menu
    $("#menu li").click(function(){
      $("li").removeClass("current-menu-item");
      $(this).addClass("current-menu-item");

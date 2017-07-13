@@ -12,13 +12,23 @@ logo: https://res.cloudinary.com/kbellioum/image/upload/v1497787353/kodus_xbdlh7
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+paginate: 5
+paginate_path: "/blogs/page:num/"
+
 sass:
   sass_dir: assets/styles
   style: compressed
 
+collections:
+  blogs:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title.html
+
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 exclude: ['Rakefile', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'bin']
 

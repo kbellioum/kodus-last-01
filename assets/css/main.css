@@ -450,7 +450,7 @@ address { font-style: italic; }
 	background:#272727;
 }
 .tg-main-section{
-	padding:80px 0;
+	padding: 95px 0;   /* 80px */
 	/*height: 480px;*/
 }
 .bg-white{ background:#fff;}
@@ -652,10 +652,10 @@ body.home #nav ul{ padding: 5px 0 0;}
 #nav ul li a:after{
 	content:'';
 	position:absolute;
-	top:100%;
+	top:130%;
 	left:0;
 	width:0;
-	height:1px;
+	height:3px;
 }
 #nav ul li.current-menu-item a:after,
 #nav ul li a:hover:after{ width:100%;}
@@ -770,7 +770,7 @@ body.home #nav ul{ padding: 5px 0 0;}
 	width: 100%;
 }
 .home-slider .owl-controls .owl-pagination .owl-page{
-	width: 33.3%;
+	width: 25%;
 	height: 15px;
 	float: left;
 	border: 1px solid #dbdbdb;
