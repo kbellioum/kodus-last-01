@@ -6933,3 +6933,8 @@ h6.small {
 .bg-gray {
 	background-color: rgba(128, 128, 128, 0.45);
 }
+
+.affix {
+    position: fixed;
+    z-index: 90000;
+}
