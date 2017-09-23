@@ -9,7 +9,8 @@ txt2: "Avec les volets aluminium persiennés sur mesure, maîtrisez l'entrée de
   Possibilité d'introduire des séparations entre mur mitoyen ."
 txt3: "Profilés en aluminium extrudé. Finitions de surface anodisées avec le label Qualanod. Finitions de surface thermolaquées avec les labels Qualimarine et Qualicoat. Lames de remplissage tubulaires de différentes sections. Assemblage des lames sur le cadre par vis en inox."
 video: false
-
+description: "Les persiennes fixe, repliables ou coulissantes Alu étonnent par leur élégance et leur robustesse. Sobres, nos modèles s’intègrent à tout type d’architecture, traditionnel ou contemporain.Avec les volets aluminium persiennés sur mesure, maîtrisez l'entrée de la lumière et de l'air frais !
+  Possibilité d'introduire des séparations entre mur mitoyen ."
 date:   2017-02-21 18:17:29 +0100
 categories: articles
 

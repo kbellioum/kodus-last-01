@@ -2977,3 +2977,9 @@ hr {
   border-width: 1px 0;
   margin: 18px 0;
 }
+.social-buttons {
+	position: fixed;
+	z-index: 1000;
+	top: 100px;
+	left: 92%;
+}

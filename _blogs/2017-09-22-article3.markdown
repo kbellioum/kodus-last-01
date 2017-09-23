@@ -6,6 +6,7 @@ txt1: "Installez votre pergola bioclimatique avec coulissant vitrée sans montan
 txt2: "Pensez à exploiter vos espaces de vie dispersés en été comme en hiver."
 txt3: "Pour plus d’informations, contactez nous sur le 06 61 04 26 79"
 video: true
+description: "Installez votre pergola bioclimatique avec coulissant vitrée sans montant latérale pour une protection contre le vent ,et avec ses lames orientables contre le soleil. Pensez à exploiter vos espaces de vie dispersés en été comme en hiver. Pour plus d’informations, contactez nous sur le 06 61 04 26 79"
 
 date: 2017-09-22T10:20:00Z
 categories: articles

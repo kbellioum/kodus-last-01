@@ -7,7 +7,7 @@ txt2: "Avec les volets aluminium persiennés sur mesure, maîtrisez l'entrée de
   Possibilité d'introduire des séparations entre mur mitoyen ."
 txt3: "Profilés en aluminium extrudé. Finitions de surface anodisées avec le label Qualanod. Finitions de surface thermolaquées avec les labels Qualimarine et Qualicoat. Lames de remplissage tubulaires de différentes sections. Assemblage des lames sur le cadre par vis en inox."
 video: false
-
+description: "Le Portail battant aluminium est très recommandé pour sa résistance et son style, c’est un grand classique des menuiseries extérieures que l'on retrouve dans bon nombre d’habitats. Composé le plus souvent de deux vantaux 'ouvrant à la française ou coulissant ', il s’ouvre de l’extérieur vers l’intérieur."
 date: 2017-03-23T10:20:00Z
 categories: articles
 
