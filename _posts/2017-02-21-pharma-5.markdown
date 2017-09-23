@@ -17,6 +17,6 @@ imgtab:
       active: false
     - src: /assets/images/projets/Pharma5/img-6.jpg
       active: false
-text: "LUMINOSITÉ, CONFORT, ACOUSTIQUE, CONVIVIALITÉ, la cloison en simple ou double parois vitrées acoustique, des solutions sur mesure pour vos aménagements de plateaux bureaux."
+text: "<strong>LUMINOSITÉ</strong>, <strong>CONFORT</strong>, <strong>ACOUSTIQUE</strong>, <strong>CONVIVIALITÉ</strong>, la cloison en simple ou double parois vitrées acoustique, des solutions sur mesure pour vos aménagements de plateaux bureaux."
 ---
 {% include projects/projet.html %}

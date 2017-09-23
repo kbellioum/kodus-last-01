@@ -204,7 +204,7 @@ $(document).ready(function (e) {
         itemsDesktop: [1199, 2],
         itemsDesktopSmall: [979, 2],
         autoPlay : true,
-        slideSpeed: 300,
+        slideSpeed: 200,
         paginationSpeed: 400,
         pagination: false,
         navigation: true,

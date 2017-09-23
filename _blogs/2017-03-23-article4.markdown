@@ -1,24 +1,0 @@
----
-layout: page
-title:  "Portail Battant"
-title2: "Options"
-txt1: "Le Portail battant aluminium est très recommandé pour sa résistance et son style, c’est un grand classique des menuiseries extérieures que l'on retrouve dans bon nombre d’habitats. Composé le plus souvent de deux vantaux 'ouvrant à la française ou coulissant ', il s’ouvre de l’extérieur vers l’intérieur."
-txt2: "Avec les volets aluminium persiennés sur mesure, maîtrisez l'entrée de la lumière et de l'air frais !
-  Possibilité d'introduire des séparations entre mur mitoyen ."
-txt3: "Profilés en aluminium extrudé. Finitions de surface anodisées avec le label Qualanod. Finitions de surface thermolaquées avec les labels Qualimarine et Qualicoat. Lames de remplissage tubulaires de différentes sections. Assemblage des lames sur le cadre par vis en inox."
-
-date: 2017-03-23T10:20:00Z
-categories: articles
-url: https://res.cloudinary.com/kbellioum/image/upload/v1497787353/kodus_xbdlh7.png
-image: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/imghead.jpg
-imgtab:
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-1.jpg
-      active: true
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-2.jpg
-      active: false
-    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-3.jpg
-      active: false
-
----
-
-{% include blogs/articles.html %}
