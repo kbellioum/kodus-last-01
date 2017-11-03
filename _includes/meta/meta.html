@@ -1,7 +1,11 @@
 <meta name="google-site-verification" content="6ITi_8ABCbTv8hCouNjnXz_zxGEXtVYkfDAuYAHaH2A">
 <meta name="description" content="Conseil en travaux de menuiserie aluminium en d’aménagement,Extension,Rénovation,traitement de façade,Isolation acoustique et thermique,Cloisonnement">
 <meta property="og:title" content="{{page.title}}">
+{% if page.categories %}
+<meta property="og:type" content="{{page.categories}}">
+{% else %}
 <meta property="og:type" content="website">
+{% endif %}
 <meta property="og:url" content="{{page.url | prepend: site.sss }}">
 <!-- <meta property="og:image" content="https://res.cloudinary.com/kbellioum/image/upload/v1496072295/kodus_w4mh2k.png"> -->
 <meta property="og:image" content="{{ page.imageone }}">
@@ -11,4 +15,6 @@
 {% else %}
   <meta property="og:description" content="{{ site.description }}">
 {% endif %}
+
+<meta property="fb:app_id" content="123281368333377"/>
 <!-- <meta property="og:description" content="{{ page.description }}"> -->

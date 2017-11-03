@@ -1,0 +1,107 @@
+---
+layout: page
+title: Gallery
+---
+<h1>Gallery projets</h1>
+
+<div id="gallery" style="display:none;">
+
+  <a href="http://unitegallery.net">
+  <img alt="Image 1 Title"
+       src="../assets/images/gallery/thumbs/img-1.jpg"
+       data-image="../assets/images/gallery/big/img-1.jpg"
+       data-description="Image 1 Description"
+       style="display:none">
+  </a>
+
+  <a href="http://unitegallery.net">
+  <img alt="Image 2 Title"
+       src="../assets/images/gallery/thumbs/img-2.jpg"
+       data-image="../assets/images/gallery/big/img-2.jpg"
+       data-description="Image 2 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 2 Title"
+       src="../assets/images/gallery/thumbs/img-3.jpg"
+       data-image="../assets/images/gallery/big/img-3.jpg"
+       data-description="Image 2 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 2 Title"
+       src="../assets/images/gallery/thumbs/img-4.jpg"
+       data-image="../assets/images/gallery/big/img-4.jpg"
+       data-description="Image 2 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 2 Title"
+       src="../assets/images/gallery/thumbs/img-5.jpg"
+       data-image="../assets/images/gallery/big/img-5.jpg"
+       data-description="Image 2 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 1 Title"
+       src="../assets/images/gallery/thumbs/img-6.jpg"
+       data-image="../assets/images/gallery/big/img-6.jpg"
+       data-description="Image 1 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 1 Title"
+       src="../assets/images/gallery/thumbs/img-7.jpg"
+       data-image="../assets/images/gallery/big/img-7.jpg"
+       data-description="Image 1 Description"
+       style="display:none">
+  </a>
+  <a href="http://unitegallery.net">
+  <img alt="Image 1 Title"
+       src="../assets/images/gallery/thumbs/img-8.jpg"
+       data-image="../assets/images/gallery/big/img-8.jpg"
+       data-description="Image 1 Description"
+       style="display:none">
+  </a>
+
+
+</div>
+
+<br>
+
+
+<!-- This loops through the paginated posts -->
+{% for gallery in paginator.gallery %}
+  <h1><a href="{{ post.url }}">{{ gallery.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ gallery.date }}</span>
+  </p>
+  <div class="content">
+    {{ gallery.content }}
+  </div>
+{% endfor %}
+
+{% assign offset = 0 %}
+
+
+{% for post in site.posts limit:site.paginate offset:offset %}
+  <!-- Display post -->
+{% endfor %}
+
+
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

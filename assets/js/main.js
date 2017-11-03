@@ -17,10 +17,17 @@
 }(window, document, 'script', 'ga'));
 ga('create', 'UA-101009114-1', 'auto');
 ga('send', 'pageview');
+
+function dothis(){
+  document.location.href = "/gallery";
+}
 /* -------------------------------------
  CUSTOM FUNCTION WRITE HERE
  -------------------------------------- */
 $(document).ready(function (e) {
+
+    var gallery = document.getElementById('btngallery');
+    gallery.addEventListener("click", dothis);
 
     /* -------------------------------------
      HOME SLIDER
@@ -391,6 +398,7 @@ $(document).ready(function (e) {
        // Anchors corresponding to menu items
        scrollItems = menuItems.map(function(){
          var item = $($(this).attr("href"));
+
          if (item.length) { return item; }
        });
 
@@ -428,6 +436,7 @@ $(document).ready(function (e) {
           }
 
 });
+
 
 
 });

@@ -1,0 +1,27 @@
+---
+layout: page
+title:  "Cloisons"
+comments: true
+txt1: "La cloison amovible vous permet de créer un espace d’intimité au sein de votre open space."
+txt2: "Ludiques, fonctionnelles et colorées, les différents type de cloisons vous permettent d’aménager des espaces comme vous le souhaitez."
+txt3: ""
+video: true
+description: "Installez votre pergola bioclimatique avec coulissant vitrée sans montant latérale pour une protection contre le vent ,et avec ses lames orientables contre le soleil. Pensez à exploiter vos espaces de vie dispersés en été comme en hiver. Pour plus d’informations, contactez nous sur le 06 61 04 26 79"
+
+date: 2017-10-05
+categories: article
+
+imageone: https://res.cloudinary.com/kbellioum/image/upload/v1507195846/Screen_Shot_2017-10-05_at_10.36.44_toy8g1.png
+
+image: https://www.youtube.com/embed/nmyReSg3M30
+imgtab:
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-1.jpg
+      active: true
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-2.jpg
+      active: false
+    - src: /assets/images/projets/Ecole_Riyadh_Al_Andalousse/img-3.jpg
+      active: false
+
+---
+
+{% include blog/articles.html %}
