@@ -38,6 +38,7 @@ $(document).ready(function (e) {
         paginationSpeed: 400,
         singleItem: true,
         navigation: true,
+        loop: true,
         // pagination: false,
         navigationText: [
             "<i class='fa fa-angle-left'></i>",

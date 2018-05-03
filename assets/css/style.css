@@ -6938,3 +6938,42 @@ h6.small {
     position: fixed;
     z-index: 90000;
 }
+
+.article {
+	display: grid;
+	grid-template-columns: repeat( 1fr, 1fr);
+	grid-gap: 10px;
+ 	/*grid-auto-rows: minmax(100px, auto);*/
+  /*height: 200px;
+  width: 100%;*/
+/*   background-color: red; */
+  /*position: relative;*/
+  margin-top:  5px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.myimage {
+  height: auto;
+  width: 350px;
+	grid-column: 1;
+/*   background-color: black; */
+  /*position: absolute;*/
+  /*box-shadow: 2px 2px 2px 0px #777777;*/
+}
+
+.txtarticle {
+	height: 100px;
+	width: auto;
+	overflow: hidden;
+}
+
+
+.texte {
+	grid-column: 2;
+}
+
+.action {
+	grid-row: 2;
+	grid-column: 2;
+}

@@ -11,7 +11,7 @@ description: "Installez votre pergola bioclimatique avec coulissant vitrée sans
 date: 2017-10-05
 categories: article
 
-imageone: https://res.cloudinary.com/kbellioum/image/upload/v1507195846/Screen_Shot_2017-10-05_at_10.36.44_toy8g1.png
+imageone: https://res.cloudinary.com/kbellioum/image/upload/v1510765399/img-2_v8h8ku.jpg
 
 image: https://www.youtube.com/embed/nmyReSg3M30
 imgtab:

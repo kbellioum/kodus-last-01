@@ -3,23 +3,42 @@ layout: page
 title: My Blog
 ---
 
+<div class="row">
+
+</div>
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
+{% for item in site.blog %}
+<div class="row">
+   <div class="article">
+    <div class="myimage">
+      <img src="{{item.imageone}}" alt="">
+    </div>
+    <div class="texte">
+      <div class="title"><h3>{{item.title}}</h3>           </div>
+      <div class=""><span><small> {{ item.date | date: '%B %d, %Y' }} </small></span></div>
+      <div class="txtarticle">
+        <p>
+          {{ item.txt1 }} <br>
+          {{ item.txt2 }} <br>
+          {{ item.txt3 }} <br>
+        </p>
+
+      </div>
+
+      <div class="pull-right">
+        <a href="{{item.url}}">Voir plus</a>
+      </div>
+
+    </div>
+
+
   </div>
+</div>
+
+  <hr>
+
 {% endfor %}
 
-{% assign offset = 0 %}
-
-
-{% for post in site.posts limit:site.paginate offset:offset %}
-  <!-- Display post -->
-{% endfor %}
 
 <!-- Pagination links -->
 <div class="pagination">
