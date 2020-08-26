@@ -1,0 +1,23 @@
+---
+layout: page
+title:  "Projet Villa H"
+date:   2017-09-15 18:17:29 +0100
+categories: projet
+image: /assets/images/projets/Projet_Villa_H/imghead.png
+imgtab:
+    - src: /assets/images/projets/Projet_Villa_H/img-1.png
+      active: true
+    - src: /assets/images/projets/Projet_Villa_H/img-2.png
+      active: false
+    - src: /assets/images/projets/Projet_Villa_H/img-3.png
+      active: false
+    - src: /assets/images/projets/Projet_Villa_H/img-4.png
+      active: false
+    - src: /assets/images/projets/Projet_Villa_H/img-5.png
+      active: false
+text: "Pergola Bioclimatique à lames orientables alu.
+Créez un espace de détente au bord de votre piscine grâce aux pergolas bioclimatiques à lames orientables motorisées."
+
+---
+
+{% include projects/projet.html %}
