@@ -1,0 +1,19 @@
+---
+layout: page
+title: 'Projet Villa Y'
+date: 2020-08-26 15:35:29 +0100
+categories: projet
+image: /assets/images/projets/Projet_Villa_Y/imghead.jpg
+imgtab:
+  - src: /assets/images/projets/Projet_Villa_Y/img-1.jpg
+    active: true
+  - src: /assets/images/projets/Projet_Villa_Y/img-2.jpg
+    active: false
+  - src: /assets/images/projets/Projet_Villa_Y/img-3.jpg
+    active: false
+  - src: /assets/images/projets/Projet_Villa_Y/img-4.jpg
+    active: false
+text: ''
+---
+
+{% include projects/projet.html %}
